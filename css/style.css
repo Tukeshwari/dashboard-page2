@@ -348,6 +348,7 @@ section.expand{
   }
   section{
     padding: 0px;
+    left: 0;
   }
   .grid{
     width:100%;
