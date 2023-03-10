@@ -344,7 +344,7 @@ section.expand{
     width: 400px;
   }
   .sidebarmenu li a{
-    padding-left: 15rem;  
+    padding-left: 14rem;  
   }
   section{
     padding: 0px;
@@ -390,45 +390,42 @@ section.expand{
   }
 }
 
-/* @media only screen and (max-width:400px){
+@media only screen and (max-width:400px){
+
+  .nav-item:hover{
+    font-weight: 500;
+    color: rgb(170, 173, 175);
+  }
+  .p
+  .items{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style-type: none;
+    gap: 30px;
+  }
   nav{
-    width: 370px;
-  }
-  .nav-item{
-    font-size: 1.8rem;
-  }
-  nav span{
-    margin-top: 4.2rem;  
-  }
-  .sidebarmenu{
-    gap: 12px;
-    height: 70%;
-    margin-top: 4rem;
-  }
-  .sidebarmenu li{
-    text-align: center;
-    width: 100%; 
+    width: 400px;
   }
   .sidebarmenu li a{
-    width: 95%;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 13rem; 
-    font-size: 1.7rem;
+    padding-left: 14rem;  
   }
-  .sidebarmenu li a i{
-    font-size: 23px;
+  section{
+    padding: 0px;
+    left: 0;
   }
   .grid{
-    width:90em;
-    gap:2rem;
+    width:100%;
+    gap:4rem;
+    display: flex;
+    flex-direction: column;
   }
   .card{
-    width:300px;
+    width:400px;
     height: auto;
   }
   .card-img{
-    height: 15rem;
+    height: 18rem;
   }
   .card-content{
     padding: 1rem; 
@@ -439,11 +436,20 @@ section.expand{
   .card-text{
     font-size:15px;
   }
-  .card-btn{
-    padding: 1.2rem;
-    font-size: 1.8rem;
+  .subnav-bar{
+    width: 100%;
+    justify-content: center;
   }
-  section{
-    left: 100px;
+  .subnav-bar ul {
+    display:flex;
+    gap: 1rem;
+    margin-top: 3rem;
   }
-} */
+  .subnav-bar ul li{
+      font-size: 10px;
+      padding: 8px;
+      width: 85px;
+      letter-spacing: 0.2px;
+      border-radius: 15px;
+  }
+}
