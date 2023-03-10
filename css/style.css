@@ -327,7 +327,75 @@ section.expand{
       border-radius: 15px;
   }
   }
-@media only screen and (max-width:500px){
+
+  @media only screen and (max-width:500px){
+ 
+    nav{
+      width: 400px;
+    }
+    .nav-item{
+      font-size: 1.4rem;
+    }
+    nav span{
+      margin-top: 4.2rem;  
+    }
+    .sidebarmenu{
+      gap: 12px;
+      height: 70%;
+      margin-top: 4rem;
+    }
+    .sidebarmenu li{
+      text-align: center;
+      width: 100%; 
+    }
+    .sidebarmenu li a{
+      width: 95%;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding-left: 13rem; 
+      font-size: 1.5rem;
+    }
+    .sidebarmenu li a i{
+      font-size: 20px;
+    }
+    .grid{
+      width:100%;
+      gap:2rem;
+    }
+    .card{
+      width:400px;
+      height: auto;
+    }
+    .card-img{
+      height: 20rem;
+    }
+    .card-content{
+      padding: 1rem; 
+    }
+    .card-header{
+      font-size: 1.5rem;
+    }
+    .card-text{
+      font-size:15px;
+    }
+    section{
+      left: 0px;
+    }
+    .subnav-bar ul {
+      display:flex;
+      gap: 1rem;
+      justify-content: space-between;
+    }
+    .subnav-bar ul li{
+      font-size: 10px;
+      padding: 7px;
+      width: 90px;
+      letter-spacing: 0.4px;
+      border-radius: 15px;
+  }
+  }
+
+/* @media only screen and (max-width:500px){
   .nav-item:hover{
     font-weight: 500;
     color: rgb(170, 173, 175);
@@ -452,4 +520,4 @@ section.expand{
       letter-spacing: 0.2px;
       border-radius: 15px;
   }
-}
+} */
