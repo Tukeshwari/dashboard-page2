@@ -315,11 +315,12 @@ section.expand{
     }
     .subnav-bar ul li{
         font-size: 10px;
-        width: 90px;
+        width: 80px;
         border-radius: 15px;
+        padding: 8px 0px;
     }
     nav{
-      width: 390px;
+      width: 400px;
     }
     .sidebarmenu li a{
       padding-left: 15rem;
