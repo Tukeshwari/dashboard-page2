@@ -362,4 +362,12 @@ section.expand{
     .sidebarmenu li a{
       padding-left: 14rem;
     }
+
+    .sidebarmenu li a{
+      padding-top: 9px;
+      padding-bottom: 9px;
+      font-size: 1.5rem;
+      letter-spacing: 0.6px;
+      margin-top: 1rem;
+    }
   }
