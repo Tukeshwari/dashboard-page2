@@ -181,6 +181,7 @@ section.expand{
     align-items: center;
     flex-wrap: wrap;
     width:100%;
+    max-width: 1000px;
     height: auto;
     gap:1.3rem;
     margin-top: 2rem;
