@@ -159,7 +159,7 @@ section{
   left: 250px;
   height: auto;
   width: calc(100% - 250px);
-  padding: 40px;
+  padding: 20px;
   transition: ease-in 0.7s;
   background-color: white;
   display: flex;
@@ -184,7 +184,7 @@ section.expand{
     margin-top: 2rem;
   }
   .card{
-    width:250px;
+    width:260px;
     height: auto;
   }
 
@@ -251,6 +251,42 @@ section.expand{
     background-color:#eb8b4b;
     color: white;
     transition: 0.5s;
+  }
+  @media only screen and (max-width:900px){
+    section{
+      padding:0;
+      left:250px;
+    }
+    .grid{
+      gap:2.3rem;
+      margin-top:2rem;
+    }
+    .card{
+      width:500px;
+      height: auto;
+    }
+    .card-img{
+      height: 25rem;
+    }
+
+    .subnav-bar{
+      margin-top: 4rem;
+    }
+    .subnav-bar ul {
+      gap: 1rem;
+    }
+    .subnav-bar ul li{
+        font-size: 10px;
+        width: 80px;
+        border-radius: 15px;
+        padding: 8px 0px;
+    }
+    nav{
+      width: 400px;
+    }
+    .sidebarmenu li a{
+      padding-left: 15rem;
+    }
   }
 
 
